@@ -8,3 +8,5 @@
 - There's a public folder for any authenticated user
 - A boss can enter everywhere but another boss folder
 - SERVERIP/logout will force a new login-popup, this will let you switch users ;)
+
+Port 80 gets automatically exposed into your server, if you run it with -P. In case your 80/tcp is already binded, just drop -P and check the container's IP.
