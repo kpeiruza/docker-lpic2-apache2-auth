@@ -11,6 +11,6 @@
 
 Port 80 gets automatically exposed into your server, if you run it with -P. In case your 80/tcp is already binded, just drop -P and check the container's IP.
 
-docker run -d -P 8080:80 kpeiruza/lpic2-apache2-auth
+docker run -d -p 8080:80 kpeiruza/lpic2-apache2-auth
 
 Connect to http://localhost:8080 and enjoy!
